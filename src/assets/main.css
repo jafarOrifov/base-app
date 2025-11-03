@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'BaseFont';
+  src: url('./fonts/Nunito-SemiBold.ttf');
+}
+
+* {
+  font-family: 'BaseFont';
+  font-weight: 400;
+}
+
+label {
+  font-size: 12px;
+  color: #121212;
+}
+.bg-brand {
+  background: #2a9b4c;
+  background: linear-gradient(
+    180deg,
+    rgba(42, 155, 76, 1) 0%,
+    rgba(87, 199, 133, 1) 50%,
+    rgba(42, 155, 76, 1) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+.q-table__middle::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.q-table__middle::-webkit-scrollbar-track {
+  background: #f5f5f5;
+}
+
+.q-table__middle::-webkit-scrollbar-thumb {
+  background-color: #bdbdbd;
+  border-radius: 4px;
+}
+
+.q-table__middle::-webkit-scrollbar-thumb:hover {
+  background: #757575;
+}
