@@ -17,6 +17,14 @@ const successMessage = (msg?: string) => {
   })
 }
 
+const warningMessage2 = (msg?: string) => {
+  Notify.create({
+    message: msg || i18n.global.t('label.errorMsg'),
+    position: 'top-right',
+    type: 'warning',
+  })
+}
+
 const warningMessage = (msg?: string) => {
   Notify.create({
     message: msg || i18n.global.t('label.errorMsg'),
@@ -24,4 +32,4 @@ const warningMessage = (msg?: string) => {
     type: 'warning',
   })
 }
-export { errorMessage, successMessage, warningMessage }
+export { errorMessage, successMessage, warningMessage, warningMessage2 }
