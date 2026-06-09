@@ -33,9 +33,7 @@ const onSubmit = async () => {
     <div class="wrapper-block row shadow-5">
       <div class="wrapper-block-left col-7">
         <div class="cover-block column items-center justify-center q-pa-xl">
-          <p class="text-white text-h4">
-            Ishonch Do'konlar tarmog'i - {{ import.meta.env.VITE_APP_VERSION }}
-          </p>
+          <p class="text-white text-h4">Ishonch Do'konlar tarmog'i - ishladi</p>
           <p class="text-white text-subtitle1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid mollitia earum laborum.
             Eum earum voluptatum dolorem at cupiditate fugiat culpa fugit voluptas quod. Iure veniam
