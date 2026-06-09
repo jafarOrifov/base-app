@@ -42,15 +42,8 @@ const data = shallowRef<ProductGroups[]>([])
 onMounted(async () => {
   data.value = await store.fetchProductGroups({ search: '', page: 1 })
 })
-</script>
+</script>-->
 
 <template>
-  <BaseTable :loading="store.loading" :columns="columns" :data="data" :dense="false">
-    <template #filters>
-      <BaseTextInput label="Qidirish" />
-    </template>
-    <template #actions>
-      <BaseBtn icon="mdi-plus" padding="sm" />
-    </template>
-  </BaseTable>
-</template> -->
+  <div>Salomlar</div>
+</template>
