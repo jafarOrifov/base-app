@@ -20,6 +20,8 @@ jobs:
 
       - run: npm run build
 
+      - run: echo "VITE_APP_VERSION=${{ github.run_number }}" > .env.production
+
       - run: npm install -g netlify-cli
 
       - run: |
