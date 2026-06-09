@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 import BaseBtn from '@/components/base/BaseBtn.vue'
 import BaseTable from '@/components/base/BaseTable.vue'
 import BaseTextInput from '@/components/base/BaseTextInput.vue'
@@ -53,4 +53,4 @@ onMounted(async () => {
       <BaseBtn icon="mdi-plus" padding="sm" />
     </template>
   </BaseTable>
-</template>
+</template> -->

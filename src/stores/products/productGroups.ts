@@ -9,8 +9,8 @@ export const useProductGroups = defineStore('product-groups', () => {
   async function fetchProductGroups(payload: ProductGroupsPayload) {
     try {
       loading.value = true
-      const res = await productGroups.get(payload)
-      return res.data
+      // const res = await productGroups.get(payload)
+      // return res.data
     } catch (e) {
       throw e
     } finally {
