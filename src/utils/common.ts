@@ -10,15 +10,3 @@ export function add(a: number | string, b: number | string) {
 export function subtract(a: number, b: number) {
   return a - b
 }
-
-export class Person {
-  constructor(firstname: string, lastname: string) {
-    this.id = 'person-'
-    this.firstname = firstname
-    this.lastname = lastname
-  }
-
-  get fullname() {
-    return `${this.firstname} ${this.lastname}`
-  }
-}
